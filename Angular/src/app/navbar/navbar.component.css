@@ -1,0 +1,15 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.icon-display {
+    transform: scale(1.3);
+}

@@ -1,0 +1,32 @@
+.bot-navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 15%;
+    left: 1%;
+    min-width: 40px;
+    row-gap: .5rem;
+    background-color: #f4e8ff;
+    border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+    width: 50px;
+    min-height: 100px;
+}
+
+.bot-navbar .container {
+    align-items: center;
+    display: grid;
+    min-height: 20vh;
+    padding: 22%;
+    row-gap: .1rem;
+}
+
+mat-icon {
+    transform: scale(1);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px #aa7be2;
+    border-radius: 20%;
+}

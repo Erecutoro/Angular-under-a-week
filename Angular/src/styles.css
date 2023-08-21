@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'juno';
+    src: url('./assets/font/JunePro-Regular.ttf');
+}
+
+* {
+    font-family: 'juno';
+}
+
+body {
+    margin: 0;
+    padding-top: 2%;
+}
+
+html,
+body {
+    height: 98%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+    color: black
+}
